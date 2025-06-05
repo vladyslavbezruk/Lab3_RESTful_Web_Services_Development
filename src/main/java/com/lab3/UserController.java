@@ -14,7 +14,7 @@ import java.util.Optional;
 public class UserController {
 
     // Локальний список для зберігання користувачів
-    private List<User> users = new ArrayList<>();
+    private final List<User> users = new ArrayList<>();
 
     // Отримати список всіх користувачів
     @GetMapping
