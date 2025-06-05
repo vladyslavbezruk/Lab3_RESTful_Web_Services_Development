@@ -3,11 +3,12 @@ package com.lab3;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+// Анотація для позначення головного класу Spring Boot додатку
 @SpringBootApplication
-public class Lab3ResTfulWebServicesDevelopmentApplication {
+public class Main {
 
     public static void main(String[] args) {
-        SpringApplication.run(Lab3ResTfulWebServicesDevelopmentApplication.class, args);
+        // Запуск додатку Spring Boot
+        SpringApplication.run(Main.class, args);
     }
-
 }
